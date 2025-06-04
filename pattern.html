@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="./pattern1.html">
+    <label for="Username">Username:</label>&nbsp;
+    <input type="text" id="Username"name="Username" pattern="[A-z]+" title="Enter any [A-z] only" required ><br><br>
+<label for="phonenumber">phonenumber</label>&nbsp;
+    <input type="tell" name="phonenumber" pattern="\+91 [0-9]{10}" title="Phone number should start with '+91'followed by '10' digits" placeholder="+91 9xxxxxxxx" required><br><br>
+    <label for="gmail">Email</label>&nbsp;
+    <input type="email" name="email"id="gmail" pattern="[a-z]+@+[a-z]{4,5}+.[a-z]{3}" title="should start with '[a-z]'" placeholder="examplename@gmail.com" required><br><br>
+         <input type="submit" value="submit">
+   </form> 
+</body>
+</html>
